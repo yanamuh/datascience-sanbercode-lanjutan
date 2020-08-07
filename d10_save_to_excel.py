@@ -29,7 +29,5 @@ df = pd.DataFrame(hasil)
 df.columns = df.iloc[0,:]
 df = df.drop(0, axis=0)
 
-# save to an excel
-# with pd.ExcelWriter('TugasPythonLanjutan_Hari_10_Yana_Muhamadinah.xlsx') as writer:
-#     df.to_excel(writer, sheet_name='Sheet_name_1')
+
 df.to_excel('pokemon.xlsx', index='False', header=True)
