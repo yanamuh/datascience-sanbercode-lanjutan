@@ -1,7 +1,3 @@
-"""
-Author : Yana Muhamadinah <muhamadinah97@gmail.com>
-Tugas Hari Ke-3 - Scraping Wikipedia
-"""
 # import libraries
 import numpy as np
 import pandas as pd
